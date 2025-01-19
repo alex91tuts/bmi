@@ -2,7 +2,7 @@
   "name": "bmi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bmi-tracker.github.io/bmi",
+  "homepage": "https://alex91tuts.github.io/bmi/dashboard",
   "dependencies": {
     "@supabase/supabase-js": "^2.39.3",
     "cra-template-pwa": "2.0.0",
