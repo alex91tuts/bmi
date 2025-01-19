@@ -2,7 +2,7 @@ import React from 'react';
 import { 
   Route,
   createRoutesFromElements,
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider 
 } from 'react-router-dom';
 import Login from './components/Login';
@@ -24,7 +24,7 @@ const AppLayout = ({ children }) => {
   );
 };
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element={<Login />} />
